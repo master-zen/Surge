@@ -1,46 +1,46 @@
 # Domains
-HOST-SUFFIX, yahoo.com, Yahoo
-HOST-SUFFIX, yahoo.co.jp, Yahoo
-HOST-SUFFIX, yahoo.co.uk, Yahoo
-HOST-SUFFIX, yahoo.fr, Yahoo
-HOST-SUFFIX, yahoo.de, Yahoo
-HOST-SUFFIX, yahoo.it, Yahoo
-HOST-SUFFIX, yahoo.es, Yahoo
-HOST-SUFFIX, yahoo.ca, Yahoo
-HOST-SUFFIX, yahoo.com.au, Yahoo
-HOST-SUFFIX, yahoo.com.sg, Yahoo
-HOST-SUFFIX, yahoo.com.hk, Yahoo
-HOST-SUFFIX, yahoo.com.tw, Yahoo
-HOST-SUFFIX, yahoo.co.in, Yahoo
-HOST-SUFFIX, yahoo.com.br, Yahoo
-HOST-SUFFIX, yahoo.com.mx, Yahoo
-HOST-SUFFIX, mail.yahoo.com, Yahoo
-HOST-SUFFIX, mail.g03.yahoodns.net, Yahoo
-HOST-SUFFIX, ymail.com, Yahoo
-HOST-SUFFIX, mail.aol.com, Yahoo
-HOST-SUFFIX, imap.aol.com, Yahoo
-HOST-SUFFIX, mta5.am0.yahoodns.net, Yahoo
-HOST-SUFFIX, mail.gm0.yahoodns.net, Yahoo
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,yahoo.co.uk
+DOMAIN-SUFFIX,yahoo.fr
+DOMAIN-SUFFIX,yahoo.de
+DOMAIN-SUFFIX,yahoo.it
+DOMAIN-SUFFIX,yahoo.es
+DOMAIN-SUFFIX,yahoo.ca
+DOMAIN-SUFFIX,yahoo.com.au
+DOMAIN-SUFFIX,yahoo.com.sg
+DOMAIN-SUFFIX,yahoo.com.hk
+DOMAIN-SUFFIX,yahoo.com.tw
+DOMAIN-SUFFIX,yahoo.co.in
+DOMAIN-SUFFIX,yahoo.com.br
+DOMAIN-SUFFIX,yahoo.com.mx
+DOMAIN-SUFFIX,mail.yahoo.com
+DOMAIN-SUFFIX,mail.g03.yahoodns.net
+DOMAIN-SUFFIX,ymail.com
+DOMAIN-SUFFIX,mail.aol.com
+DOMAIN-SUFFIX,imap.aol.com
+DOMAIN-SUFFIX,mta5.am0.yahoodns.net
+DOMAIN-SUFFIX,mail.gm0.yahoodns.net
 
 # Host IPs
-HOST, 98.137.11.163, Yahoo
-HOST, 183.79.135.206, Yahoo
-HOST, 188.125.73.108, Yahoo
-HOST, 66.163.170.24, Yahoo
-HOST, 66.163.170.25, Yahoo
-HOST, 66.163.170.34, Yahoo
-HOST, 66.163.170.35, Yahoo
-HOST, 66.163.170.50, Yahoo
-HOST, 27.123.42.204, Yahoo
-HOST, 27.123.42.205, Yahoo
-HOST, 45.181.42.204, Yahoo
-HOST, 45.181.42.205, Yahoo
-HOST, 66.218.84.40, Yahoo
-HOST, 66.218.84.41, Yahoo
-HOST, 66.218.84.42, Yahoo
-HOST, 66.218.84.43, Yahoo
-HOST, 66.218.84.44, Yahoo
-HOST, 66.218.84.45, Yahoo
-HOST, 68.180.135.251, Yahoo
-HOST, 68.180.135.252, Yahoo
-HOST, 69.147.65.251, Yahoo
+IP-CIDR,98.137.11.163,no-resolve
+IP-CIDR,183.79.135.206,no-resolve
+IP-CIDR,188.125.73.108,no-resolve
+IP-CIDR,66.163.170.24,no-resolve
+IP-CIDR,66.163.170.25,no-resolve
+IP-CIDR,66.163.170.34,no-resolve
+IP-CIDR,66.163.170.35,no-resolve
+IP-CIDR,66.163.170.50,no-resolve
+IP-CIDR,27.123.42.204,no-resolve
+IP-CIDR,27.123.42.205,no-resolve
+IP-CIDR,45.181.42.204,no-resolve
+IP-CIDR,45.181.42.205,no-resolve
+IP-CIDR,66.218.84.40,no-resolve
+IP-CIDR,66.218.84.41,no-resolve
+IP-CIDR,66.218.84.42,no-resolve
+IP-CIDR,66.218.84.43,no-resolve
+IP-CIDR,66.218.84.44,no-resolve
+IP-CIDR,66.218.84.45,no-resolve
+IP-CIDR,68.180.135.251,no-resolve
+IP-CIDR,68.180.135.252,no-resolve
+IP-CIDR,69.147.65.251,no-resolve
