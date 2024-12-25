@@ -1,258 +1,258 @@
 #
 #IP-CIDR
-IP-CIDR, 10.0.0.0/8, Direct
-IP-CIDR, 100.64.0.0/10, Direct
-IP-CIDR, 127.0.0.0/8, Direct
-IP-CIDR, 172.16.0.0/12, Direct
-IP-CIDR, 192.168.0.0/16, Direct
-IP-CIDR, 224.0.0.0/24, Direct
-IP-CIDR, 119.29.29.98/32, Direct
-IP6-CIDR, ::/0, Direct
+IP-CIDR, 10.0.0.0/8
+IP-CIDR, 100.64.0.0/10
+IP-CIDR, 127.0.0.0/8
+IP-CIDR, 172.16.0.0/12
+IP-CIDR, 192.168.0.0/16
+IP-CIDR, 224.0.0.0/24
+IP-CIDR, 119.29.29.98/32
+IP6-CIDR, ::/0
 #
 #HOST
-DOMAIN-SUFFIX, ain.bgm.tv, Direct
-DOMAIN-SUFFIX, analytics.95516.com, Direct
-DOMAIN-SUFFIX, analytics.strava.com, Direct
-DOMAIN-SUFFIX, app.adjust.com, Direct
-DOMAIN-SUFFIX, app.appsflyer.com, Direct
-DOMAIN-SUFFIX, bdtj.tagtic.cn, Direct
-DOMAIN-SUFFIX, cdn.jsdelivr.net, Direct
-DOMAIN-SUFFIX, deo.shopeemobile.com, Direct
-DOMAIN-SUFFIX, eco-push-api-client.meiqia.com, Direct
-DOMAIN-SUFFIX, errlog.umeng.com, Direct
-DOMAIN-SUFFIX, fairplay.l.qq.com, Direct
-DOMAIN-SUFFIX, image.maimn.com, Direct
-DOMAIN-SUFFIX, img.bfzypic.com, Direct
-DOMAIN-SUFFIX, img.ffzypic.com, Direct
-DOMAIN-SUFFIX, img.kuaikanzy.net, Direct
-DOMAIN-SUFFIX, img.liangzipic.com, Direct
-DOMAIN-SUFFIX, captive.apple.com, Direct
-DOMAIN-SUFFIX, init.ess.apple.com, Direct
-DOMAIN-SUFFIX, itunes.apple.com, Direct
-DOMAIN-SUFFIX, xp.apple.com, Direct
-DOMAIN-SUFFIX, lain.bgm.tv, Direct
-DOMAIN-SUFFIX, livew.l.qq.com, Direct
-DOMAIN-SUFFIX, log.mmstat.com, Direct
-DOMAIN-SUFFIX, m3u8.255tv.tk, Direct
-DOMAIN-SUFFIX, m3u8.mstopq.com, Direct
-DOMAIN-SUFFIX, msg.umeng.com, Direct
-DOMAIN-SUFFIX, msg.umengcloud.com, Direct
-DOMAIN-SUFFIX, new-api.meiqia.com, Direct
-DOMAIN-SUFFIX, ok.zuidapic.com, Direct
-DOMAIN-SUFFIX, origin-a.akamaihd.net, Direct
-DOMAIN-SUFFIX, rewards.hypixel.net, Direct
-DOMAIN-SUFFIX, sdk.alibaba.com.ailbaba.me, Direct
-DOMAIN-SUFFIX, smp-device-content.apple.com, Direct
-DOMAIN-SUFFIX, static.jssp.tv, Direct
-DOMAIN-SUFFIX, sycm.mmstat.com, Direct
-DOMAIN-SUFFIX, tiao.cjkypo.com, Direct
-DOMAIN-SUFFIX, time.apple.com, Direct
-DOMAIN-SUFFIX, tracking.miui.com, Direct
-DOMAIN-SUFFIX, ts.thefilehosting.com, Direct
-DOMAIN-SUFFIX, vd.l.qq.com, Direct
-DOMAIN-SUFFIX, vi.l.qq.com, Direct
-DOMAIN-SUFFIX, vip.ffzyread.com, Direct
-DOMAIN-SUFFIX, vip.imgffzy.com, Direct
-DOMAIN-SUFFIX, comm.app.autohome.com.cn, Direct
-DOMAIN-SUFFIX, www.hubpd.com, Direct
+DOMAIN-SUFFIX, ain.bgm.tv
+DOMAIN-SUFFIX, analytics.95516.com
+DOMAIN-SUFFIX, analytics.strava.com
+DOMAIN-SUFFIX, app.adjust.com
+DOMAIN-SUFFIX, app.appsflyer.com
+DOMAIN-SUFFIX, bdtj.tagtic.cn
+DOMAIN-SUFFIX, cdn.jsdelivr.net
+DOMAIN-SUFFIX, deo.shopeemobile.com
+DOMAIN-SUFFIX, eco-push-api-client.meiqia.com
+DOMAIN-SUFFIX, errlog.umeng.com
+DOMAIN-SUFFIX, fairplay.l.qq.com
+DOMAIN-SUFFIX, image.maimn.com
+DOMAIN-SUFFIX, img.bfzypic.com
+DOMAIN-SUFFIX, img.ffzypic.com
+DOMAIN-SUFFIX, img.kuaikanzy.net
+DOMAIN-SUFFIX, img.liangzipic.com
+DOMAIN-SUFFIX, captive.apple.com
+DOMAIN-SUFFIX, init.ess.apple.com
+DOMAIN-SUFFIX, itunes.apple.com
+DOMAIN-SUFFIX, xp.apple.com
+DOMAIN-SUFFIX, lain.bgm.tv
+DOMAIN-SUFFIX, livew.l.qq.com
+DOMAIN-SUFFIX, log.mmstat.com
+DOMAIN-SUFFIX, m3u8.255tv.tk
+DOMAIN-SUFFIX, m3u8.mstopq.com
+DOMAIN-SUFFIX, msg.umeng.com
+DOMAIN-SUFFIX, msg.umengcloud.com
+DOMAIN-SUFFIX, new-api.meiqia.com
+DOMAIN-SUFFIX, ok.zuidapic.com
+DOMAIN-SUFFIX, origin-a.akamaihd.net
+DOMAIN-SUFFIX, rewards.hypixel.net
+DOMAIN-SUFFIX, sdk.alibaba.com.ailbaba.me
+DOMAIN-SUFFIX, smp-device-content.apple.com
+DOMAIN-SUFFIX, static.jssp.tv
+DOMAIN-SUFFIX, sycm.mmstat.com
+DOMAIN-SUFFIX, tiao.cjkypo.com
+DOMAIN-SUFFIX, time.apple.com
+DOMAIN-SUFFIX, tracking.miui.com
+DOMAIN-SUFFIX, ts.thefilehosting.com
+DOMAIN-SUFFIX, vd.l.qq.com
+DOMAIN-SUFFIX, vi.l.qq.com
+DOMAIN-SUFFIX, vip.ffzyread.com
+DOMAIN-SUFFIX, vip.imgffzy.com
+DOMAIN-SUFFIX, comm.app.autohome.com.cn
+DOMAIN-SUFFIX, www.hubpd.com
 #
 #HOST-SUFFIX
 
-DOMAIN-SUFFIX, icloud.com.cn, Direct
-DOMAIN-SUFFIX, downloadtorrentfile.com, Direct
-DOMAIN-SUFFIX, announce, Direct
-DOMAIN-SUFFIX, announce.php, Direct
-DOMAIN-SUFFIX, qbittorrent.org, Direct
-DOMAIN-SUFFIX, libtorrent.org, Direct
-DOMAIN-SUFFIX, asus.com, Direct
-DOMAIN-SUFFIX, hpplay.cn, Direct
-DOMAIN-SUFFIX, suning.com, Direct
+DOMAIN-SUFFIX, icloud.com.cn
+DOMAIN-SUFFIX, downloadtorrentfile.com
+DOMAIN-SUFFIX, announce
+DOMAIN-SUFFIX, announce.php
+DOMAIN-SUFFIX, qbittorrent.org
+DOMAIN-SUFFIX, libtorrent.org
+DOMAIN-SUFFIX, asus.com
+DOMAIN-SUFFIX, hpplay.cn
+DOMAIN-SUFFIX, suning.com
 ## macOS软件：
-DOMAIN-SUFFIX, appstorrent.ru, Direct
-# DOMAIN-SUFFIX, torrentmac.net, Direct
-# DOMAIN-SUFFIX, mac-torrent-download.net, Direct
+DOMAIN-SUFFIX, appstorrent.ru
+# DOMAIN-SUFFIX, torrentmac.net
+# DOMAIN-SUFFIX, mac-torrent-download.net
 ## 缘觉影视地址：
-DOMAIN-SUFFIX, bdys.me, Direct
-DOMAIN-SUFFIX, yjys02.com, Direct
-DOMAIN-SUFFIX, yjys.top, Direct
-DOMAIN-SUFFIX, yjys.cc.ua, Direct
-DOMAIN-SUFFIX, yjys.inf.ua, Direct
+DOMAIN-SUFFIX, bdys.me
+DOMAIN-SUFFIX, yjys02.com
+DOMAIN-SUFFIX, yjys.top
+DOMAIN-SUFFIX, yjys.cc.ua
+DOMAIN-SUFFIX, yjys.inf.ua
 ## 低端影视地址：
-DOMAIN-SUFFIX, ddys.pro, Direct
-DOMAIN-SUFFIX, ddys.mov, Direct
-DOMAIN-SUFFIX, ddys.tv, Direct
-DOMAIN-SUFFIX, ddrk.me, Direct
-DOMAIN-SUFFIX, ddys.info, Direct
-DOMAIN-SUFFIX, ddys.love, Direct
+DOMAIN-SUFFIX, ddys.pro
+DOMAIN-SUFFIX, ddys.mov
+DOMAIN-SUFFIX, ddys.tv
+DOMAIN-SUFFIX, ddrk.me
+DOMAIN-SUFFIX, ddys.info
+DOMAIN-SUFFIX, ddys.love
 #
-DOMAIN-SUFFIX, pbcdci.cn, Direct
-DOMAIN-SUFFIX, ucweb.com, Direct
-DOMAIN-SUFFIX, kuwo.cn, Direct
-DOMAIN-SUFFIX, 360safe.com, Direct
-DOMAIN-SUFFIX, 52pt.site, Direct
-DOMAIN-SUFFIX, acg.rip, Direct
-DOMAIN-SUFFIX, acm.org, Direct
-DOMAIN-SUFFIX, aidoru-online.me, Direct
-DOMAIN-SUFFIX, alpharatio.cc, Direct
-DOMAIN-SUFFIX, animebytes.tv, Direct
-DOMAIN-SUFFIX, anthelion.me, Direct
-DOMAIN-SUFFIX, asiancinema.me, Direct
-DOMAIN-SUFFIX, avgv.cc, Direct
-DOMAIN-SUFFIX, avistaz.to, Direct
-DOMAIN-SUFFIX, awesome-hd.me, Direct
-DOMAIN-SUFFIX, baomitu.com, Direct
-DOMAIN-SUFFIX, beitai.pt, Direct
-DOMAIN-SUFFIX, beyond-hd.me, Direct
-DOMAIN-SUFFIX, bibliotik.me, Direct
-DOMAIN-SUFFIX, blackwell-synergy.com, Direct
-DOMAIN-SUFFIX, blutopia.xyz, Direct
-DOMAIN-SUFFIX, bootcss.com, Direct
-DOMAIN-SUFFIX, broadcasthe.net, Direct
-DOMAIN-SUFFIX, bt.byr.cn, Direct
-DOMAIN-SUFFIX, bt.neu6.edu.cn, Direct
-DOMAIN-SUFFIX, btschool.club, Direct
-DOMAIN-SUFFIX, cabdirect.org, Direct
-DOMAIN-SUFFIX, ccfbits.org, Direct
-DOMAIN-SUFFIX, cgpeers.com, Direct
-DOMAIN-SUFFIX, cinemageddon.net, Direct
-DOMAIN-SUFFIX, cinematik.net, Direct
-DOMAIN-SUFFIX, cinemaz.to, Direct
-DOMAIN-SUFFIX, classix-unlimited.co.uk, Direct
-DOMAIN-SUFFIX, comicat.org, Direct
-DOMAIN-SUFFIX, concertos.live, Direct
-DOMAIN-SUFFIX, dicmusic.club, Direct
-DOMAIN-SUFFIX, discfan.net, Direct
-DOMAIN-SUFFIX, dizhensubao.getui.com, Direct
-DOMAIN-SUFFIX, doi.org, Direct
-DOMAIN-SUFFIX, dxdhd.com, Direct
-DOMAIN-SUFFIX, eastgame.org, Direct
-DOMAIN-SUFFIX, empornium.me, Direct
-DOMAIN-SUFFIX, et8.org, Direct
-DOMAIN-SUFFIX, exoticaz.to, Direct
-DOMAIN-SUFFIX, f.video.weibocdn.com, Direct
-DOMAIN-SUFFIX, filelist.io, Direct
-DOMAIN-SUFFIX, fus.cdn.krcom.cn, Direct
-DOMAIN-SUFFIX, gazellegames.net, Direct
-DOMAIN-SUFFIX, gfxpeers.net, Direct
-DOMAIN-SUFFIX, hd-space.org, Direct
-DOMAIN-SUFFIX, hd4.xyz, Direct
-DOMAIN-SUFFIX, hd4fans.org, Direct
-DOMAIN-SUFFIX, hdarea.co, Direct
-DOMAIN-SUFFIX, hdatmos.club, Direct
-DOMAIN-SUFFIX, hdbd.us, Direct
-DOMAIN-SUFFIX, hdbits.org, Direct
-DOMAIN-SUFFIX, hdchina.org, Direct
-DOMAIN-SUFFIX, hdcity.city, Direct
-DOMAIN-SUFFIX, hddolby.com, Direct
-DOMAIN-SUFFIX, hdfans.org, Direct
-DOMAIN-SUFFIX, hdhome.org, Direct
-DOMAIN-SUFFIX, hdpost.top, Direct
-DOMAIN-SUFFIX, hdroute.org, Direct
-DOMAIN-SUFFIX, hdsky.me, Direct
-DOMAIN-SUFFIX, hdstreet.club, Direct
-DOMAIN-SUFFIX, hdtime.org, Direct
-DOMAIN-SUFFIX, hdupt.com, Direct
-DOMAIN-SUFFIX, hdzone.me, Direct
-DOMAIN-SUFFIX, hitpt.com, Direct
-DOMAIN-SUFFIX, hitpt.org, Direct
-DOMAIN-SUFFIX, hudbt.hust.edu.cn, Direct
-DOMAIN-SUFFIX, icetorrent.org, Direct
-DOMAIN-SUFFIX, ieee.org, Direct
-DOMAIN-SUFFIX, j99.info, Direct
-DOMAIN-SUFFIX, jiasule.com, Direct
-DOMAIN-SUFFIX, joyhd.net, Direct
-DOMAIN-SUFFIX, jpopsuki.eu, Direct
-DOMAIN-SUFFIX, jstor.org, Direct
-DOMAIN-SUFFIX, karagarga.in, Direct
-DOMAIN-SUFFIX, keepfrds.com, Direct
-DOMAIN-SUFFIX, koodomobile.ca, Direct
-DOMAIN-SUFFIX, koodomobile.com, Direct
-DOMAIN-SUFFIX, leaguehd.com, Direct
-DOMAIN-SUFFIX, lztr.me, Direct
-DOMAIN-SUFFIX, m-team.cc, Direct
-DOMAIN-SUFFIX, madsrevolution.net, Direct
-DOMAIN-SUFFIX, moecat.best, Direct
-DOMAIN-SUFFIX, morethan.tv, Direct
-DOMAIN-SUFFIX, msg.vg, Direct
-DOMAIN-SUFFIX, myanonamouse.net, Direct
-DOMAIN-SUFFIX, nanyangpt.com, Direct
-DOMAIN-SUFFIX, nature.com, Direct
-DOMAIN-SUFFIX, ncore.cc, Direct
-DOMAIN-SUFFIX, nebulance.io, Direct
-DOMAIN-SUFFIX, nicept.net, Direct
-DOMAIN-SUFFIX, npupt.com, Direct
-DOMAIN-SUFFIX, ol.epicgames.com, Direct
-DOMAIN-SUFFIX, open.cd, Direct
-DOMAIN-SUFFIX, oppaiti.me, Direct
-DOMAIN-SUFFIX, orpheus.network, Direct
-DOMAIN-SUFFIX, osapublishing.org, Direct
-DOMAIN-SUFFIX, oup.com, Direct
-DOMAIN-SUFFIX, ourbits.club, Direct
-DOMAIN-SUFFIX, passthepopcorn.me, Direct
-DOMAIN-SUFFIX, pornbits.net, Direct
-DOMAIN-SUFFIX, privatehd.to, Direct
-DOMAIN-SUFFIX, pterclub.com, Direct
-DOMAIN-SUFFIX, pthome.net, Direct
-DOMAIN-SUFFIX, ptsbao.club, Direct
-DOMAIN-SUFFIX, redacted.ch, Direct
-DOMAIN-SUFFIX, researchgate.net, Direct
-DOMAIN-SUFFIX, sciencemag.org, Direct
-DOMAIN-SUFFIX, scopus.com, Direct
-DOMAIN-SUFFIX, sdbits.org, Direct
-DOMAIN-SUFFIX, skyey2.com, Direct
-DOMAIN-SUFFIX, soulvoice.club, Direct
-DOMAIN-SUFFIX, springer.com, Direct
-DOMAIN-SUFFIX, springernature.com, Direct
-DOMAIN-SUFFIX, springsunday.net, Direct
-DOMAIN-SUFFIX, staticfile.org, Direct
-DOMAIN-SUFFIX, tjupt.org, Direct
-DOMAIN-SUFFIX, totheglory.im, Direct
-DOMAIN-SUFFIX, tracking-protection.cdn.mozilla.net, Direct
-DOMAIN-SUFFIX, trontv.com, Direct
-DOMAIN-SUFFIX, uhdbits.org, Direct
-DOMAIN-SUFFIX, upaiyun.com, Direct
-DOMAIN-SUFFIX, weather-analytics-events.apple.com, Direct
-DOMAIN-SUFFIX, weather-data.apple.com, Direct
-DOMAIN-SUFFIX, weather-map.apple.com, Direct
-DOMAIN-SUFFIX, wiley.com, Direct
-DOMAIN-SUFFIX, xunlei.com, Direct
+DOMAIN-SUFFIX, pbcdci.cn
+DOMAIN-SUFFIX, ucweb.com
+DOMAIN-SUFFIX, kuwo.cn
+DOMAIN-SUFFIX, 360safe.com
+DOMAIN-SUFFIX, 52pt.site
+DOMAIN-SUFFIX, acg.rip
+DOMAIN-SUFFIX, acm.org
+DOMAIN-SUFFIX, aidoru-online.me
+DOMAIN-SUFFIX, alpharatio.cc
+DOMAIN-SUFFIX, animebytes.tv
+DOMAIN-SUFFIX, anthelion.me
+DOMAIN-SUFFIX, asiancinema.me
+DOMAIN-SUFFIX, avgv.cc
+DOMAIN-SUFFIX, avistaz.to
+DOMAIN-SUFFIX, awesome-hd.me
+DOMAIN-SUFFIX, baomitu.com
+DOMAIN-SUFFIX, beitai.pt
+DOMAIN-SUFFIX, beyond-hd.me
+DOMAIN-SUFFIX, bibliotik.me
+DOMAIN-SUFFIX, blackwell-synergy.com
+DOMAIN-SUFFIX, blutopia.xyz
+DOMAIN-SUFFIX, bootcss.com
+DOMAIN-SUFFIX, broadcasthe.net
+DOMAIN-SUFFIX, bt.byr.cn
+DOMAIN-SUFFIX, bt.neu6.edu.cn
+DOMAIN-SUFFIX, btschool.club
+DOMAIN-SUFFIX, cabdirect.org
+DOMAIN-SUFFIX, ccfbits.org
+DOMAIN-SUFFIX, cgpeers.com
+DOMAIN-SUFFIX, cinemageddon.net
+DOMAIN-SUFFIX, cinematik.net
+DOMAIN-SUFFIX, cinemaz.to
+DOMAIN-SUFFIX, classix-unlimited.co.uk
+DOMAIN-SUFFIX, comicat.org
+DOMAIN-SUFFIX, concertos.live
+DOMAIN-SUFFIX, dicmusic.club
+DOMAIN-SUFFIX, discfan.net
+DOMAIN-SUFFIX, dizhensubao.getui.com
+DOMAIN-SUFFIX, doi.org
+DOMAIN-SUFFIX, dxdhd.com
+DOMAIN-SUFFIX, eastgame.org
+DOMAIN-SUFFIX, empornium.me
+DOMAIN-SUFFIX, et8.org
+DOMAIN-SUFFIX, exoticaz.to
+DOMAIN-SUFFIX, f.video.weibocdn.com
+DOMAIN-SUFFIX, filelist.io
+DOMAIN-SUFFIX, fus.cdn.krcom.cn
+DOMAIN-SUFFIX, gazellegames.net
+DOMAIN-SUFFIX, gfxpeers.net
+DOMAIN-SUFFIX, hd-space.org
+DOMAIN-SUFFIX, hd4.xyz
+DOMAIN-SUFFIX, hd4fans.org
+DOMAIN-SUFFIX, hdarea.co
+DOMAIN-SUFFIX, hdatmos.club
+DOMAIN-SUFFIX, hdbd.us
+DOMAIN-SUFFIX, hdbits.org
+DOMAIN-SUFFIX, hdchina.org
+DOMAIN-SUFFIX, hdcity.city
+DOMAIN-SUFFIX, hddolby.com
+DOMAIN-SUFFIX, hdfans.org
+DOMAIN-SUFFIX, hdhome.org
+DOMAIN-SUFFIX, hdpost.top
+DOMAIN-SUFFIX, hdroute.org
+DOMAIN-SUFFIX, hdsky.me
+DOMAIN-SUFFIX, hdstreet.club
+DOMAIN-SUFFIX, hdtime.org
+DOMAIN-SUFFIX, hdupt.com
+DOMAIN-SUFFIX, hdzone.me
+DOMAIN-SUFFIX, hitpt.com
+DOMAIN-SUFFIX, hitpt.org
+DOMAIN-SUFFIX, hudbt.hust.edu.cn
+DOMAIN-SUFFIX, icetorrent.org
+DOMAIN-SUFFIX, ieee.org
+DOMAIN-SUFFIX, j99.info
+DOMAIN-SUFFIX, jiasule.com
+DOMAIN-SUFFIX, joyhd.net
+DOMAIN-SUFFIX, jpopsuki.eu
+DOMAIN-SUFFIX, jstor.org
+DOMAIN-SUFFIX, karagarga.in
+DOMAIN-SUFFIX, keepfrds.com
+DOMAIN-SUFFIX, koodomobile.ca
+DOMAIN-SUFFIX, koodomobile.com
+DOMAIN-SUFFIX, leaguehd.com
+DOMAIN-SUFFIX, lztr.me
+DOMAIN-SUFFIX, m-team.cc
+DOMAIN-SUFFIX, madsrevolution.net
+DOMAIN-SUFFIX, moecat.best
+DOMAIN-SUFFIX, morethan.tv
+DOMAIN-SUFFIX, msg.vg
+DOMAIN-SUFFIX, myanonamouse.net
+DOMAIN-SUFFIX, nanyangpt.com
+DOMAIN-SUFFIX, nature.com
+DOMAIN-SUFFIX, ncore.cc
+DOMAIN-SUFFIX, nebulance.io
+DOMAIN-SUFFIX, nicept.net
+DOMAIN-SUFFIX, npupt.com
+DOMAIN-SUFFIX, ol.epicgames.com
+DOMAIN-SUFFIX, open.cd
+DOMAIN-SUFFIX, oppaiti.me
+DOMAIN-SUFFIX, orpheus.network
+DOMAIN-SUFFIX, osapublishing.org
+DOMAIN-SUFFIX, oup.com
+DOMAIN-SUFFIX, ourbits.club
+DOMAIN-SUFFIX, passthepopcorn.me
+DOMAIN-SUFFIX, pornbits.net
+DOMAIN-SUFFIX, privatehd.to
+DOMAIN-SUFFIX, pterclub.com
+DOMAIN-SUFFIX, pthome.net
+DOMAIN-SUFFIX, ptsbao.club
+DOMAIN-SUFFIX, redacted.ch
+DOMAIN-SUFFIX, researchgate.net
+DOMAIN-SUFFIX, sciencemag.org
+DOMAIN-SUFFIX, scopus.com
+DOMAIN-SUFFIX, sdbits.org
+DOMAIN-SUFFIX, skyey2.com
+DOMAIN-SUFFIX, soulvoice.club
+DOMAIN-SUFFIX, springer.com
+DOMAIN-SUFFIX, springernature.com
+DOMAIN-SUFFIX, springsunday.net
+DOMAIN-SUFFIX, staticfile.org
+DOMAIN-SUFFIX, tjupt.org
+DOMAIN-SUFFIX, totheglory.im
+DOMAIN-SUFFIX, tracking-protection.cdn.mozilla.net
+DOMAIN-SUFFIX, trontv.com
+DOMAIN-SUFFIX, uhdbits.org
+DOMAIN-SUFFIX, upaiyun.com
+DOMAIN-SUFFIX, weather-analytics-events.apple.com
+DOMAIN-SUFFIX, weather-data.apple.com
+DOMAIN-SUFFIX, weather-map.apple.com
+DOMAIN-SUFFIX, wiley.com
+DOMAIN-SUFFIX, xunlei.com
 #
 #HOST-KEYWORD
-DOMAIN-SUFFIX, anti-ad.net, Direct
-DOMAIN-SUFFIX, api-adservices.apple.com, Direct
-DOMAIN-SUFFIX, api.smoot.apple.cn, Direct
-DOMAIN-SUFFIX, api.smoot.apple.com, Direct
-DOMAIN-SUFFIX, aw-s.tripcdn.com, Direct
-DOMAIN-SUFFIX, ax1x.com, Direct
-DOMAIN-SUFFIX, bfzycdn.com, Direct
-DOMAIN-SUFFIX, buy.itunes.apple.com, Direct
-DOMAIN-SUFFIX, cnki.net, Direct
-DOMAIN-SUFFIX, ctc.qzs.qzone.qq.com, Direct
-DOMAIN-SUFFIX, deepdyve, Direct
-DOMAIN-SUFFIX, els-cdn, Direct
-DOMAIN-SUFFIX, elsevier, Direct
-DOMAIN-SUFFIX, ess.apple.com, Direct
-DOMAIN-SUFFIX, gsa.apple.com, Direct
-DOMAIN-SUFFIX, humb.apple.com, Direct
-DOMAIN-SUFFIX, icloud.com, Direct
-DOMAIN-SUFFIX, ls.apple.com, Direct
-DOMAIN-SUFFIX, o.lencr.org, Direct
-DOMAIN-SUFFIX, pkulaw, Direct
-DOMAIN-SUFFIX, push.apple.com, Direct
-DOMAIN-SUFFIX, readcube, Direct
-DOMAIN-SUFFIX, sciencedirect, Direct
-DOMAIN-SUFFIX, ssl.apple.com, Direct
-DOMAIN-SUFFIX, trip.com, Direct
-DOMAIN-SUFFIX, ttcdn-tos.kkimg.cc, Direct
-DOMAIN-SUFFIX, vip.ffzy-online, Direct
-DOMAIN-SUFFIX, vip.ffzy-play, Direct
-DOMAIN-SUFFIX, vip.kuaikan-cdn, Direct
-DOMAIN-SUFFIX, vip.lz-cdn, Direct
-DOMAIN-SUFFIX, wanfangdata, Direct
-DOMAIN-SUFFIX, wb_ad, Direct
-DOMAIN-SUFFIX, weather-adge.apple.com, Direct
-DOMAIN-SUFFIX, weather-edge.apple.com, Direct
-DOMAIN-SUFFIX, westlawchina, Direct
+DOMAIN-SUFFIX, anti-ad.net
+DOMAIN-SUFFIX, api-adservices.apple.com
+DOMAIN-SUFFIX, api.smoot.apple.cn
+DOMAIN-SUFFIX, api.smoot.apple.com
+DOMAIN-SUFFIX, aw-s.tripcdn.com
+DOMAIN-SUFFIX, ax1x.com
+DOMAIN-SUFFIX, bfzycdn.com
+DOMAIN-SUFFIX, buy.itunes.apple.com
+DOMAIN-SUFFIX, cnki.net
+DOMAIN-SUFFIX, ctc.qzs.qzone.qq.com
+DOMAIN-SUFFIX, deepdyve
+DOMAIN-SUFFIX, els-cdn
+DOMAIN-SUFFIX, elsevier
+DOMAIN-SUFFIX, ess.apple.com
+DOMAIN-SUFFIX, gsa.apple.com
+DOMAIN-SUFFIX, humb.apple.com
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, ls.apple.com
+DOMAIN-SUFFIX, o.lencr.org
+DOMAIN-SUFFIX, pkulaw
+DOMAIN-SUFFIX, push.apple.com
+DOMAIN-SUFFIX, readcube
+DOMAIN-SUFFIX, sciencedirect
+DOMAIN-SUFFIX, ssl.apple.com
+DOMAIN-SUFFIX, trip.com
+DOMAIN-SUFFIX, ttcdn-tos.kkimg.cc
+DOMAIN-SUFFIX, vip.ffzy-online
+DOMAIN-SUFFIX, vip.ffzy-play
+DOMAIN-SUFFIX, vip.kuaikan-cdn
+DOMAIN-SUFFIX, vip.lz-cdn
+DOMAIN-SUFFIX, wanfangdata
+DOMAIN-SUFFIX, wb_ad
+DOMAIN-SUFFIX, weather-adge.apple.com
+DOMAIN-SUFFIX, weather-edge.apple.com
+DOMAIN-SUFFIX, westlawchina
 #
 #USER-AGENT
-USER-AGENT, %E8%BF%85%E9%9B%B7, Direct
+USER-AGENT, %E8%BF%85%E9%9B%B7
