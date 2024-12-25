@@ -1,0 +1,350 @@
+# Name: Tracker
+# Update Time: 2024-09-02
+# HOST
+# 整合以下资源：
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PrivateTracker/PrivateTracker.list
+# https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt
+# https://cf.trackerslist.com/all.txt
+# https://www.yaozuopan.top/index.php/archives/1014/
+
+
+HOST, tracker.opentrackr.org, Tracker
+HOST, open.tracker.cl, Tracker
+HOST, open.demonii.com, Tracker
+HOST, open.stealth.si, Tracker
+HOST, tracker.torrent.eu.org, Tracker
+HOST, tracker-udp.gbitt.info, Tracker
+HOST, explodie.org, Tracker
+HOST, exodus.desync.com, Tracker
+HOST, tracker1.bt.moack.co.kr, Tracker
+HOST, opentracker.io, Tracker
+HOST, open.free-tracker.ga, Tracker
+HOST, open.dstud.io, Tracker
+HOST, new-line.net, Tracker
+HOST, isk.richardsw.club, Tracker
+HOST, tracker.tamersunion.org, Tracker
+HOST, tracker.renfei.net, Tracker
+HOST, tracker.ipv6tracker.org, Tracker
+HOST, wepzone.net, Tracker
+HOST, ttk2.nbaonlineservice.com, Tracker
+HOST, tracker2.dler.org, Tracker
+HOST, tracker1.myporn.club, Tracker
+HOST, tracker.tryhackx.org, Tracker
+HOST, tracker.tiny-vps.com, Tracker
+HOST, tracker.theoks.net, Tracker
+HOST, tracker.skynetcloud.site, Tracker
+HOST, tracker.qu.ax, Tracker
+HOST, tracker.jamesthebard.net, Tracker
+HOST, tracker.fnix.net, Tracker
+HOST, tracker.filemail.com, Tracker
+HOST, tracker.farted.net, Tracker
+HOST, tracker.edkj.club, Tracker
+HOST, tracker.dler.org, Tracker
+HOST, tracker.deadorbit.nl, Tracker
+HOST, tracker.ccp.ovh, Tracker
+HOST, tracker.0x7c0.com, Tracker
+HOST, tamas3.ynh.fr, Tracker
+HOST, ryjer.com, Tracker
+HOST, run.publictracker.xyz, Tracker
+HOST, retracker01-msk-virt.corbina.net, Tracker
+HOST, p4p.arenabg.com, Tracker
+HOST, p2p.publictracker.xyz, Tracker
+HOST, open.publictracker.xyz, Tracker
+HOST, odd-hd.fr, Tracker
+HOST, moonburrow.club, Tracker
+HOST, martin-gebhardt.eu, Tracker
+HOST, jutone.com, Tracker
+HOST, epider.me, Tracker
+HOST, d40969.acod.regrucolo.ru, Tracker
+HOST, bt2.archive.org, Tracker
+HOST, bt1.archive.org, Tracker
+HOST, bt.ktrackers.com, Tracker
+HOST, amigacity.xyz, Tracker
+HOST, 1c.premierzal.ru, Tracker
+HOST, trackers.run, Tracker
+HOST, tracker.yemekyedim.com, Tracker
+HOST, tracker.pmman.tech, Tracker
+HOST, tracker.lilithraws.org, Tracker
+HOST, tracker.cloudit.top, Tracker
+HOST, tracker-zhuqiy.dgj055.icu, Tracker
+HOST, www.peckservers.com, Tracker
+HOST, tracker.mywaifu.best, Tracker
+HOST, tracker.files.fm, Tracker
+HOST, tracker.bt4g.com, Tracker
+HOST, tr.kxmp.cf, Tracker
+HOST, t1.aag.moe, Tracker
+HOST, t.overflow.biz, Tracker
+HOST, open.acgtracker.com, Tracker
+HOST, ch3oh.ru, Tracker
+HOST, bvarf.tracker.sh, Tracker
+HOST, 1337.abcvg.info, Tracker
+HOST, tracker.srv00.com, Tracker
+HOST, tracker.darkness.services, Tracker
+HOST, torrents.artixlinux.org, Tracker
+HOST, mail.artixlinux.org, Tracker
+HOST, ipv4.rer.lol, Tracker
+HOST, evan.im, Tracker
+HOST, concen.org, Tracker
+HOST, tracker.ipfsscan.io, Tracker
+HOST, tracker.gcrenwp.top, Tracker
+HOST, tr.ready4.icu, Tracker
+HOST, tracker1.itzmx.com, Tracker
+HOST, canardscitrons.nohost.me, Tracker
+HOST, bittorrent-tracker.e-n-c-r-y-p-t.net, Tracker
+HOST, 185.230.4.150, Tracker
+HOST, 121.199.16.229, Tracker
+HOST, 85.239.33.28, Tracker
+HOST, 51.68.174.87, Tracker
+HOST, 176.31.250.174, Tracker
+HOST, 82.156.24.219, Tracker
+HOST, 62.210.114.129, Tracker
+HOST, 135.125.202.143, Tracker
+HOST, 5.182.86.242, Tracker
+HOST, 64.23.195.62, Tracker
+HOST, 211.75.210.220, Tracker
+HOST, 5.102.159.190, Tracker
+HOST, 109.201.134.183, Tracker
+HOST, 125.227.79.123, Tracker
+HOST, 23.157.120.14, Tracker
+HOST, tracker.frozen-layer.net, Tracker
+HOST, www.theplace.bz, Tracker
+HOST, data-bg.net, Tracker
+HOST, torrents-nn.cn, Tracker
+HOST, t2.pow7.com, Tracker
+HOST, tracker.minglong.org, Tracker
+HOST, www.biztorrents.com, Tracker
+HOST, sukebei.tracker.wf, Tracker
+HOST, torrent.resonatingmedia.com, Tracker
+HOST, www.zone-torrent.net, Tracker
+HOST, tracker.frozen-layer.com, Tracker
+HOST, music-torrent.net, Tracker
+HOST, t.btcland.xyz, Tracker
+HOST, bt.3dmgame.com, Tracker
+HOST, bt.ali213.net, Tracker
+HOST, tracker.pow7.com, Tracker
+HOST, atrack.pow7.com, Tracker
+HOST, t1.pow7.com, Tracker
+HOST, secure.pow7.com, Tracker
+HOST, tr.highstar.shop, Tracker
+HOST, torrentzilla.org, Tracker
+HOST, www.tvnihon.com, Tracker
+HOST, tracker.tricitytorrents.com, Tracker
+HOST, tracker.ali213.net, Tracker
+HOST, potuk.com, Tracker
+HOST, torrents.linuxmint.com, Tracker
+HOST, kinorun.com, Tracker
+HOST, tracker.breizh.pm, Tracker
+HOST, 34.94.76.146, Tracker
+HOST, 62.138.18.152, Tracker
+HOST, 116.202.49.58, Tracker
+HOST, 45.135.134.94, Tracker
+HOST, www.torrent.eu.org, Tracker
+HOST, tk1.trackerservers.com, Tracker
+HOST, 7.rarbg.me, Tracker
+HOST, openbittorrent.com, Tracker
+HOST, tracker.dler.com, Tracker
+HOST, bubu.mapfactor.com, Tracker
+HOST, sugoi.pomf.se, Tracker
+HOST, open-tracker.demonoid.ch, Tracker
+HOST, fh2.cmp-gaming.com, Tracker
+HOST, tracker.bitsearch.to, Tracker
+HOST, pow7.com, Tracker
+HOST, tracker.openbittorrent.com, Tracker
+HOST, 9.rarbg.me, Tracker
+HOST, tracker.coppersurfer.tk, Tracker
+HOST, peertube.cpy.re, Tracker
+HOST, tracker.webtorrent.dev, Tracker
+HOST, oh.fuuuuuck.com, Tracker
+HOST, tracker.gbitt.info, Tracker
+HOST, retracker.lanta.me, Tracker
+HOST, open.u-p.pw, Tracker
+HOST, tracker.dump.cl, Tracker
+HOST, tracker.bittor.pw, Tracker
+HOST, public.publictracker.xyz, Tracker
+HOST, open.demonoid.ch, Tracker
+HOST, leet-tracker.moe, Tracker
+HOST, inferno.demonoid.is, Tracker
+HOST, free.publictracker.xyz, Tracker
+HOST, tracker.loligirl.cn, Tracker
+HOST, t1.hloli.org, Tracker
+HOST, u.peer-exchange.download, Tracker
+HOST, tracker.ddunlimited.net, Tracker
+HOST, aegir.sexy, Tracker
+HOST, 207.241.226.111, Tracker
+HOST, 207.241.231.226, Tracker
+HOST, 49.12.76.8, Tracker
+HOST, bt.okmp3.ru, Tracker
+HOST, nyaa.tracker.wf, Tracker
+HOST, retracker.hotplug.ru, Tracker
+HOST, retracker.x2k.ru, Tracker
+HOST, tk.greedland.net, Tracker
+HOST, torrentsmd.com, Tracker
+HOST, tracker.electro-torrent.pl, Tracker
+HOST, tracker2.itzmx.com, Tracker
+HOST, tracker3.itzmx.com, Tracker
+HOST, tracker4.itzmx.com, Tracker
+HOST, www.all4nothin.net, Tracker
+HOST, www.wareztorrent.com, Tracker
+HOST, pybittrack.retiolus.net, Tracker
+HOST, retracker2.x2k.ru, Tracker
+HOST, tr.abir.ga, Tracker
+HOST, tr.burnabyhighstar.com, Tracker
+HOST, tracker.kuroy.me, Tracker
+HOST, tracker1.520.jp, Tracker
+HOST, trackers.mlsub.net, Tracker
+HOST, 52.58.128.163, Tracker
+HOST, bandito.byterunner.io, Tracker
+HOST, dataforai.com, Tracker
+HOST, ec2-18-191-163-220.us-east-2.compute.amazonaws.com, Tracker
+HOST, ns575949.ip-51-222-82.net, Tracker
+HOST, open.tracker.ink, Tracker
+HOST, opentor.org, Tracker
+HOST, seedpeer.net, Tracker
+HOST, serpb.vpsburti.com, Tracker
+HOST, tk2.trackerservers.com, Tracker
+HOST, tk2v6.trackerservers.com, Tracker
+HOST, trackarr.org, Tracker
+HOST, tracker-us.silksa.co.za, Tracker
+HOST, tracker.birkenwald.de, Tracker
+HOST, tracker.cyberia.is, Tracker
+HOST, tracker.gmi.gd, Tracker
+HOST, tracker.skyts.net, Tracker
+HOST, tracker.torrust-demo.com, Tracker
+HOST, tracker.xor.st, Tracker
+HOST, u4.trakx.crim.ist, Tracker
+HOST, u6.trakx.crim.ist, Tracker
+HOST, z.mercax.com, Tracker
+HOST, tracker.openwebtorrent.com, Tracker
+HOST, bittorrent.service.gongt.me, Tracker
+HOST, public.tracker.vraphim.com, Tracker
+HOST-SUFFIX,1ptba.com, Tracker
+HOST-SUFFIX,2xfree.org, Tracker
+HOST-SUFFIX,52pt.site, Tracker
+HOST-SUFFIX,aidoru-online.me, Tracker
+HOST-SUFFIX,alpharatio.cc, Tracker
+HOST-SUFFIX,animebytes.tv, Tracker
+HOST-SUFFIX,animetorrents.me, Tracker
+HOST-SUFFIX,anthelion.me, Tracker
+HOST-SUFFIX,asiancinema.me, Tracker
+HOST-SUFFIX,audiences.me, Tracker
+HOST-SUFFIX,avgv.cc, Tracker
+HOST-SUFFIX,avistaz.to, Tracker
+HOST-SUFFIX,awesome-hd.me, Tracker
+HOST-SUFFIX,beitai.pt, Tracker
+HOST-SUFFIX,beyond-hd.me, Tracker
+HOST-SUFFIX,bibliotik.me, Tracker
+HOST-SUFFIX,bittorrent.com, Tracker
+HOST-SUFFIX,blutopia.cc, Tracker
+HOST-SUFFIX,broadcasthe.net, Tracker
+HOST-SUFFIX,bt.byr.cn, Tracker
+HOST-SUFFIX,bt.neu6.edu.cn, Tracker
+HOST-SUFFIX,btschool.club, Tracker
+HOST-SUFFIX,bwtorrents.tv, Tracker
+HOST-SUFFIX,byr.pt, Tracker
+HOST-SUFFIX,ccfbits.org, Tracker
+HOST-SUFFIX,cgpeers.com, Tracker
+HOST-SUFFIX,chdbits.co, Tracker
+HOST-SUFFIX,cinemageddon.net, Tracker
+HOST-SUFFIX,cinematik.net, Tracker
+HOST-SUFFIX,cinemaz.to, Tracker
+HOST-SUFFIX,classix-unlimited.co.uk, Tracker
+HOST-SUFFIX,concertos.live, Tracker
+HOST-SUFFIX,creditracker.net, Tracker
+HOST-SUFFIX,dicmusic.club, Tracker
+HOST-SUFFIX,discfan.net, Tracker
+HOST-SUFFIX,dxdhd.com, Tracker
+HOST-SUFFIX,eastgame.org, Tracker
+HOST-SUFFIX,empornium.me, Tracker
+HOST-SUFFIX,et8.org, Tracker
+HOST-SUFFIX,exoticaz.to, Tracker
+HOST-SUFFIX,extremlymtorrents.ws, Tracker
+HOST-SUFFIX,filelist.io, Tracker
+HOST-SUFFIX,gainbound.net, Tracker
+HOST-SUFFIX,gazellegames.net, Tracker
+HOST-SUFFIX,gfxpeers.net, Tracker
+HOST-SUFFIX,hd-space.org, Tracker
+HOST-SUFFIX,hd-torrents.org, Tracker
+HOST-SUFFIX,hd4.xyz, Tracker
+HOST-SUFFIX,hd4fans.org, Tracker
+HOST-SUFFIX,hdarea.co, Tracker
+HOST-SUFFIX,hdatmos.club, Tracker
+HOST-SUFFIX,hdbd.us, Tracker
+HOST-SUFFIX,hdbits.org, Tracker
+HOST-SUFFIX,hdchina.org, Tracker
+HOST-SUFFIX,hdcity.city, Tracker
+HOST-SUFFIX,hddolby.com, Tracker
+HOST-SUFFIX,hdfans.org, Tracker
+HOST-SUFFIX,hdhome.org, Tracker
+HOST-SUFFIX,hdpost.top, Tracker
+HOST-SUFFIX,hdroute.org, Tracker
+HOST-SUFFIX,hdsky.me, Tracker
+HOST-SUFFIX,hdstreet.club, Tracker
+HOST-SUFFIX,hdtime.org, Tracker
+HOST-SUFFIX,hdupt.com, Tracker
+HOST-SUFFIX,hdzone.me, Tracker
+HOST-SUFFIX,hhanclub.top, Tracker
+HOST-SUFFIX,hitpt.com, Tracker
+HOST-SUFFIX,hitpt.org, Tracker
+HOST-SUFFIX,hudbt.hust.edu.cn, Tracker
+HOST-SUFFIX,icetorrent.org, Tracker
+HOST-SUFFIX,iptorrents.com, Tracker
+HOST-SUFFIX,j99.info, Tracker
+HOST-SUFFIX,joyhd.net, Tracker
+HOST-SUFFIX,jpopsuki.eu, Tracker
+HOST-SUFFIX,kamept.com, Tracker
+HOST-SUFFIX,karagarga.in, Tracker
+HOST-SUFFIX,keepfrds.com, Tracker
+HOST-SUFFIX,landof.tv, Tracker
+HOST-SUFFIX,leaguehd.com, Tracker
+HOST-SUFFIX,lemonhd.org, Tracker
+HOST-SUFFIX,lztr.me, Tracker
+HOST-SUFFIX,m-team.cc, Tracker
+HOST-SUFFIX,madsrevolution.net, Tracker
+HOST-SUFFIX,moecat.best, Tracker
+HOST-SUFFIX,morethan.tv, Tracker
+HOST-SUFFIX,msg.vg, Tracker
+HOST-SUFFIX,myanonamouse.net, Tracker
+HOST-SUFFIX,nanyangpt.com, Tracker
+HOST-SUFFIX,ncore.cc, Tracker
+HOST-SUFFIX,nebulance.io, Tracker
+HOST-SUFFIX,nicept.net, Tracker
+HOST-SUFFIX,npupt.com, Tracker
+HOST-SUFFIX,nwsuaf6.edu.cn, Tracker
+HOST-SUFFIX,open.cd, Tracker
+HOST-SUFFIX,oppaiti.me, Tracker
+HOST-SUFFIX,orpheus.network, Tracker
+HOST-SUFFIX,ourbits.club, Tracker
+HOST-SUFFIX,passthepopcorn.me, Tracker
+HOST-SUFFIX,pornbits.net, Tracker
+HOST-SUFFIX,privatehd.to, Tracker
+HOST-SUFFIX,pterclub.com, Tracker
+HOST-SUFFIX,pthome.net, Tracker
+HOST-SUFFIX,ptsbao.club, Tracker
+HOST-SUFFIX,pttime.org, Tracker
+HOST-SUFFIX,pussytorrents.org, Tracker
+HOST-SUFFIX,qingwa.pro, Tracker
+HOST-SUFFIX,redacted.ch, Tracker
+HOST-SUFFIX,sdbits.org, Tracker
+HOST-SUFFIX,sharkpt.net, Tracker
+HOST-SUFFIX,sjtu.edu.cn, Tracker
+HOST-SUFFIX,skyey2.com, Tracker
+HOST-SUFFIX,soulvoice.club, Tracker
+HOST-SUFFIX,springsunday.net, Tracker
+HOST-SUFFIX,tju.pt, Tracker
+HOST-SUFFIX,tjupt.org, Tracker
+HOST-SUFFIX,torrentday.com, Tracker
+HOST-SUFFIX,torrentleech.org, Tracker
+HOST-SUFFIX,torrentseeds.org, Tracker
+HOST-SUFFIX,totheglory.im, Tracker
+HOST-SUFFIX,trontv.com, Tracker
+HOST-SUFFIX,u2.dmhy.org, Tracker
+HOST-SUFFIX,uhdbits.org, Tracker
+HOST-SUFFIX,xauat6.edu.cn, Tracker
+HOST-KEYWORD,announce, Tracker
+HOST-KEYWORD,chdbits, Tracker
+HOST-KEYWORD,m-team, Tracker
+HOST-KEYWORD,torrent, Tracker
+IP-CIDR,207.241.226.111/32, Tracker
+IP-CIDR,207.241.231.226/32, Tracker
+IP-CIDR,49.12.76.8/32, Tracker
+IP-CIDR,52.58.128.163/32, Tracker

@@ -1,0 +1,44 @@
+# Google
+HOST, fundingchoicesmessages.google.com, Google
+HOST, clientservices.googleapis.com, Google
+HOST, dl.google.com, Google
+HOST, dl.l.google.com, Google
+HOST, update.googleapis.com, Google
+HOST-SUFFIX, blog.google, Google
+HOST-SUFFIX, googleapis.com, Google
+HOST-SUFFIX, googletraveladservices.com, Google
+HOST-SUFFIX, app-analytics-services.com, Google
+
+# HOST
+
+HOST, wl.spotify.com, Spotify
+HOST, t.co, Twitter
+HOST, cc-api-data.adobe.io, Adobe
+HOST, m.discuss.com.hk, Final
+HOST, api.adapty.io, Final
+HOST, dblr1a.turn.livekit.cloud, Final
+
+# HOST-SUFFIX
+HOST-SUFFIX, weather.com, Final
+HOST-SUFFIX, discuss.com.hk, Final
+HOST-SUFFIX, livekit.cloud, Final
+HOST-SUFFIX, api.revenuecat.com, Final
+HOST-SUFFIX, torrentmac.net, Final
+HOST-SUFFIX, torrentdownloads.pro, Final
+HOST-SUFFIX, downloadtorrentfile.com, Final
+HOST-SUFFIX, mac-torrent-download.net, Final
+HOST-SUFFIX, phncdn.com, Final
+HOST-SUFFIX, phprcdn.com, Final
+HOST-SUFFIX, pornhub.com, Final
+HOST-SUFFIX, pornhubpremium.com, Final
+HOST-SUFFIX, modelhub.com, Final
+HOST-SUFFIX, xvideos.com, Final
+HOST-SUFFIX, redtube.com, Final
+HOST-SUFFIX, youporn.com, Final
+HOST-SUFFIX, xnxx.com, Final
+HOST-SUFFIX, xhamster.com, Final
+HOST-SUFFIX, spankbang.com, Final
+HOST-SUFFIX, tube8.com, Final
+HOST-SUFFIX, porntube.com, Final
+HOST-SUFFIX, youjizz.com, Final
+HOST-SUFFIX, hclips.com, Final
