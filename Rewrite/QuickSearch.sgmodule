@@ -1,10 +1,17 @@
-# Search Engine Redirect
-# Updated：2024-09-13
-# Explanation：Effective when the default search engine is set to Google.
+#!name=Search Engine Redirect
+#!desc=Effective when the default search engine is set to Google.
+#!system=ios
+#!Updated=2024-12-26
 #===============Zen===============#
+
+
+[MITM]
 
 # HostName
 hostname = www.google.com, www.google.cn,www.g.cn, play.google.com, search.yahoo.com, cn.bing.com, www.bing.com.cn, www.bing.cn, chat.openai.com, duckduckgo.com, search.aol.com, www.ask.com, yandex.com, www.ecosia.org, you.com, wap.sogou.com, www.baidu.com, dict.baidu.com, www.pinterest.com, en.wikipedia.org, zh.wikipedia.org, zh.wiktionary.org, github.com, www.etools.ch, www.youtube.com,
+
+
+[URL Rewrite]
 
 # CN To COM
 ^https?:\/\/((cn|www)\.)?bing(\.com|\.cn|\.com\.cn)(?!\/\/www\.bing\.com) https://www.bing.com url 307
