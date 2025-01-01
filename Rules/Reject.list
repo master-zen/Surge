@@ -1,94 +1,88 @@
 # 哔哩哔哩广告
 # h2下会请求这个,但请求会很慢发出
-HOST, grpc.biliapi.net, Reject
-
+DOMAIN, grpc.biliapi.net
 
 # 知乎广告
-HOST, mqtt.zhihu.com, Reject
-HOST, sugar.zhihu.com, Reject
-USER-AGENT, ZhihuHybrid*, Reject
-
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+USER-AGENT,ZhihuHybrid*
 
 # PCDN domains
-bsccdn.net
-dyp2p-ali.douyucdn.cn
-dyp2p-hw.douyucdn.cn
-kuiniuca.com
-onethingpcs.com
-p2p-ali.douyucdn.cn
-p2p.huya.com
-p2p.qq.com
-p2pchunk-hw.douyucdn.cn
-p2pchunk-table.douyucdn.cn
-p2pchunk-ws.douyucdn.cn
-p2perrorlog.douyucdn.cn
-p2plive-ali.douyucdn.cn
-p2plive-ws.douyucdn.cn
-p2plog.douyucdn.cn
-p2ptun.qq.com
-p2pupdate.gamedl.qq.com
-p2pupgrade.gamedl.qq.com
-p2pvod-ws.douyucdn.cn
-pcdn.yximgs.com
-pkoplink.com
-saxysec.com
-stun.douyucdn.cn
-stun.hitv.com
-stun1.douyucdn.cn
-szbdyd.com
-uhabo.com
-xycdn.com
+DOMAIN,bsccdn.net
+DOMAIN,dyp2p-ali.douyucdn.cn
+DOMAIN,dyp2p-hw.douyucdn.cn
+DOMAIN,kuiniuca.com
+DOMAIN,onethingpcs.com
+DOMAIN,p2p-ali.douyucdn.cn
+DOMAIN,p2p.huya.com
+DOMAIN,p2p.qq.com
+DOMAIN,p2pchunk-hw.douyucdn.cn
+DOMAIN,p2pchunk-table.douyucdn.cn
+DOMAIN,p2pchunk-ws.douyucdn.cn
+DOMAIN,p2perrorlog.douyucdn.cn
+DOMAIN,p2plive-ali.douyucdn.cn
+DOMAIN,p2plive-ws.douyucdn.cn
+DOMAIN,p2plog.douyucdn.cn
+DOMAIN,p2ptun.qq.com
+DOMAIN,p2pupdate.gamedl.qq.com
+DOMAIN,p2pupgrade.gamedl.qq.com
+DOMAIN,p2pvod-ws.douyucdn.cn
+DOMAIN,pcdn.yximgs.com
+DOMAIN,pkoplink.com
+DOMAIN,saxysec.com
+DOMAIN,stun.douyucdn.cn
+DOMAIN,stun.hitv.com
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,szbdyd.com
+DOMAIN,uhabo.com
+DOMAIN,xycdn.com
 
 # Encrypted DNS servers
+DOMAIN,apidns.kwd.inkuai.com
+DOMAIN,dns.iqiyi.com
+DOMAIN,dns.jd.com
+DOMAIN,dns.qiyipic.iqiyi.com
+DOMAIN,dns.weibo.cn
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,doh.dns.apple.com
+DOMAIN,doh.iqiyi.com
+DOMAIN,doh.ptqy.gitv.tv
+DOMAIN,dotserver.douyucdn.cn
+DOMAIN,hdns.ksyun.com
+DOMAIN,httpdns-api.aliyuncs.com
+DOMAIN,httpdns-browser.platform.dbankcloud.cn
+DOMAIN,httpdns-sc.aliyuncs.com
+DOMAIN,httpdns-sdk.n.netease.com
+DOMAIN,httpdns.alicdn.com
+DOMAIN,httpdns.baidu.com
+DOMAIN,httpdns.baidubce.com
+DOMAIN,httpdns.bcelive.com
+DOMAIN,httpdns.bilivideo.com
+DOMAIN,httpdns.browser.miui.com
+DOMAIN,httpdns.c.cdnhwc2.com
+DOMAIN,httpdns.cctv.com
+DOMAIN,httpdns.danuoyi.tbcache.com
+DOMAIN,httpdns.gslb.yy.com
+DOMAIN,httpdns.huaweicloud.com
+DOMAIN,httpdns.kg.qq.com
+DOMAIN,httpdns.kwd.inkuai.com
+DOMAIN,httpdns.meituan.com
+DOMAIN,httpdns.music.163.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.n.shifen.com
+DOMAIN,httpdns.ocloud.heytapmobi.com
+DOMAIN,httpdns.ocloud.oppomobile.com
+DOMAIN,httpdns.platform.dbankcloud.cn
+DOMAIN,httpdns.platform.dbankcloud.com
+DOMAIN,httpdns.pro
+DOMAIN,httpdns.push.heytapmobi.com
+DOMAIN,httpdns.push.oppomobile.com
+DOMAIN,httpdns.volcengineapi.com
+DOMAIN,httpdns.yunxindns.com
+DOMAIN,httpdns.zybang.com
+DOMAIN,httpdns1.cc.cdnhwc5.com
+DOMAIN,httpsdns.baidu.com
+DOMAIN,lofter.httpdns.c.163.com
+DOMAIN,music.httpdns.c.163.com
 
-apidns.kwd.inkuai.com
-dns.iqiyi.com
-dns.jd.com
-dns.qiyipic.iqiyi.com
-dns.weibo.cn
-dns.weixin.qq.com
-dns.weixin.qq.com.cn
-doh.dns.apple.com
-doh.iqiyi.com
-doh.ptqy.gitv.tv
-dotserver.douyucdn.cn
-hdns.ksyun.com
-httpdns-api.aliyuncs.com
-httpdns-browser.platform.dbankcloud.cn
-httpdns-sc.aliyuncs.com
-httpdns-sdk.n.netease.com
-httpdns.alicdn.com
-httpdns.baidu.com
-httpdns.baidubce.com
-httpdns.bcelive.com
-httpdns.bilivideo.com
-httpdns.browser.miui.com
-httpdns.c.cdnhwc2.com
-httpdns.cctv.com
-httpdns.danuoyi.tbcache.com
-httpdns.gslb.yy.com
-httpdns.huaweicloud.com
-httpdns.kg.qq.com
-httpdns.kwd.inkuai.com
-httpdns.meituan.com
-httpdns.music.163.com
-httpdns.n.netease.com
-httpdns.n.shifen.com
-httpdns.ocloud.heytapmobi.com
-httpdns.ocloud.oppomobile.com
-httpdns.platform.dbankcloud.cn
-httpdns.platform.dbankcloud.com
-httpdns.pro
-httpdns.push.heytapmobi.com
-httpdns.push.oppomobile.com
-httpdns.volcengineapi.com
-httpdns.yunxindns.com
-httpdns.zybang.com
-httpdns1.cc.cdnhwc5.com
-httpsdns.baidu.com
-lofter.httpdns.c.163.com
-music.httpdns.c.163.com
-
-#
-HOST-KEYWORD, adsite, Reject
-USER-AGENT, AVOS*, Reject
