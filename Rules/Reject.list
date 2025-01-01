@@ -2,18 +2,42 @@
 # h2下会请求这个,但请求会很慢发出
 HOST, grpc.biliapi.net, Reject
 
-# 滴滴出行
-ip-cidr, 123.207.209.39/32, reject
-ip-cidr, 123.207.209.60/32, reject
-ip-cidr, 139.199.240.12/32, reject
-ip-cidr, 116.85.3.37/32, reject
-ip-cidr, 162.14.157.2/32, reject
-ip-cidr, 162.14.157.24/32, reject
 
 # 知乎广告
 HOST, mqtt.zhihu.com, Reject
 HOST, sugar.zhihu.com, Reject
 USER-AGENT, ZhihuHybrid*, Reject
+
+
+# PCDN domains
+bsccdn.net
+dyp2p-ali.douyucdn.cn
+dyp2p-hw.douyucdn.cn
+kuiniuca.com
+onethingpcs.com
+p2p-ali.douyucdn.cn
+p2p.huya.com
+p2p.qq.com
+p2pchunk-hw.douyucdn.cn
+p2pchunk-table.douyucdn.cn
+p2pchunk-ws.douyucdn.cn
+p2perrorlog.douyucdn.cn
+p2plive-ali.douyucdn.cn
+p2plive-ws.douyucdn.cn
+p2plog.douyucdn.cn
+p2ptun.qq.com
+p2pupdate.gamedl.qq.com
+p2pupgrade.gamedl.qq.com
+p2pvod-ws.douyucdn.cn
+pcdn.yximgs.com
+pkoplink.com
+saxysec.com
+stun.douyucdn.cn
+stun.hitv.com
+stun1.douyucdn.cn
+szbdyd.com
+uhabo.com
+xycdn.com
 
 #
 HOST-KEYWORD, adsite, Reject
