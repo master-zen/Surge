@@ -38,7 +38,6 @@ DOMAIN,uhabo.com
 DOMAIN,xycdn.com
 
 # Encrypted DNS servers
-DOMAIN,doh.opendns.com
 DOMAIN,apidns.kwd.inkuai.com
 DOMAIN,dns.iqiyi.com
 DOMAIN,dns.jd.com
