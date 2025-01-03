@@ -1,11 +1,11 @@
 # 哔哩哔哩广告
 # h2下会请求这个,但请求会很慢发出
-DOMAIN, grpc.biliapi.net
+#DOMAIN, grpc.biliapi.net
 
 # 知乎广告
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-USER-AGENT,ZhihuHybrid*
+#DOMAIN,mqtt.zhihu.com
+#DOMAIN,sugar.zhihu.com
+#USER-AGENT,ZhihuHybrid*
 
 # PCDN domains
 DOMAIN,bsccdn.net
