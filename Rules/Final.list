@@ -1,44 +1,44 @@
 # Google
-HOST, fundingchoicesmessages.google.com, Google
-HOST, clientservices.googleapis.com, Google
-HOST, dl.google.com, Google
-HOST, dl.l.google.com, Google
-HOST, update.googleapis.com, Google
-HOST-SUFFIX, blog.google, Google
-HOST-SUFFIX, googleapis.com, Google
-HOST-SUFFIX, googletraveladservices.com, Google
-HOST-SUFFIX, app-analytics-services.com, Google
+DOMAIN, fundingchoicesmessages.google.com, Google
+DOMAIN, clientservices.googleapis.com, Google
+DOMAIN, dl.google.com, Google
+DOMAIN, dl.l.google.com, Google
+DOMAIN, update.googleapis.com, Google
+DOMAIN-SUFFIX, blog.google, Google
+DOMAIN-SUFFIX, googleapis.com, Google
+DOMAIN-SUFFIX, googletraveladservices.com, Google
+DOMAIN-SUFFIX, app-analytics-services.com, Google
 
-# HOST
+# DOMAIN
 
-HOST, wl.spotify.com, Spotify
-HOST, t.co, Twitter
-HOST, cc-api-data.adobe.io, Adobe
-HOST, m.discuss.com.hk, Final
-HOST, api.adapty.io, Final
-HOST, dblr1a.turn.livekit.cloud, Final
+DOMAIN, wl.spotify.com, Spotify
+DOMAIN, t.co, Twitter
+DOMAIN, cc-api-data.adobe.io, Adobe
+DOMAIN, m.discuss.com.hk, Final
+DOMAIN, api.adapty.io, Final
+DOMAIN, dblr1a.turn.livekit.cloud, Final
 
-# HOST-SUFFIX
-HOST-SUFFIX, weather.com, Final
-HOST-SUFFIX, discuss.com.hk, Final
-HOST-SUFFIX, livekit.cloud, Final
-HOST-SUFFIX, api.revenuecat.com, Final
-HOST-SUFFIX, torrentmac.net, Final
-HOST-SUFFIX, torrentdownloads.pro, Final
-HOST-SUFFIX, downloadtorrentfile.com, Final
-HOST-SUFFIX, mac-torrent-download.net, Final
-HOST-SUFFIX, phncdn.com, Final
-HOST-SUFFIX, phprcdn.com, Final
-HOST-SUFFIX, pornhub.com, Final
-HOST-SUFFIX, pornhubpremium.com, Final
-HOST-SUFFIX, modelhub.com, Final
-HOST-SUFFIX, xvideos.com, Final
-HOST-SUFFIX, redtube.com, Final
-HOST-SUFFIX, youporn.com, Final
-HOST-SUFFIX, xnxx.com, Final
-HOST-SUFFIX, xhamster.com, Final
-HOST-SUFFIX, spankbang.com, Final
-HOST-SUFFIX, tube8.com, Final
-HOST-SUFFIX, porntube.com, Final
-HOST-SUFFIX, youjizz.com, Final
-HOST-SUFFIX, hclips.com, Final
+# DOMAIN-SUFFIX
+DOMAIN-SUFFIX, weather.com, Final
+DOMAIN-SUFFIX, discuss.com.hk, Final
+DOMAIN-SUFFIX, livekit.cloud, Final
+DOMAIN-SUFFIX, api.revenuecat.com, Final
+DOMAIN-SUFFIX, torrentmac.net, Final
+DOMAIN-SUFFIX, torrentdownloads.pro, Final
+DOMAIN-SUFFIX, downloadtorrentfile.com, Final
+DOMAIN-SUFFIX, mac-torrent-download.net, Final
+DOMAIN-SUFFIX, phncdn.com, Final
+DOMAIN-SUFFIX, phprcdn.com, Final
+DOMAIN-SUFFIX, pornhub.com, Final
+DOMAIN-SUFFIX, pornhubpremium.com, Final
+DOMAIN-SUFFIX, modelhub.com, Final
+DOMAIN-SUFFIX, xvideos.com, Final
+DOMAIN-SUFFIX, redtube.com, Final
+DOMAIN-SUFFIX, youporn.com, Final
+DOMAIN-SUFFIX, xnxx.com, Final
+DOMAIN-SUFFIX, xhamster.com, Final
+DOMAIN-SUFFIX, spankbang.com, Final
+DOMAIN-SUFFIX, tube8.com, Final
+DOMAIN-SUFFIX, porntube.com, Final
+DOMAIN-SUFFIX, youjizz.com, Final
+DOMAIN-SUFFIX, hclips.com, Final
