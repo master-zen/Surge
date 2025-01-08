@@ -12,7 +12,7 @@ hostname = www.google.com, www.google.cn,www.g.cn, play.google.com, search.yahoo
 [URL Rewrite]
 
 # Google & Bing CN To COM
-^https?:\/\/((cn|www)\.)?bing(\.com|\.cn|\.com\.cn)(?!\/\/www\.bing\.com) https://www.bing.com 307
+^https?:\/\/(?:cn|www)?\.?bing\.(?:com|cn|com\.cn)(?!\/www\.bing\.com) https://www.bing.com 307
 ^https?:\/\/(www\.)?(g\.cn|google\.cn) https://www.google.com 307
 
 # google.com QuickSearch（Chrome, Edge, Safari for ios)
