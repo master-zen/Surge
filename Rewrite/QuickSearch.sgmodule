@@ -1,5 +1,5 @@
 #!name=Search Engine Redirect
-#!desc=Effective when the default search engine is set to Google. ,Updated=2024-12-26
+#!desc=Effective when the default search engine is set to Google. ,Updated=2025-1-9
 #!system=ios
 #===============Zen===============#
 
@@ -393,7 +393,7 @@
 ## eTools
 "^https?:\/\/www\.google\.com\/search\?q=(?i:ETOOLS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.etools.ch/searchSubmit.do?query=$1" 307
 ## YouTube
-"^https?:\/\/www\.g&ie=utf-8&oe=utf-8&client=firefox-b-1-moogle\.com\/search\?q=(?i:YOUTUBE|YTB)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.youtube.com/results?search_query=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:YOUTUBE|YTB)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.youtube.com/results?search_query=$1" 307
 ## Pornhub
 "^https?:\/\/www\.google\.com\/search\?q=(?i:PORNHUB|PORN)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://cn.pornhub.com/video/search?search=$1" 307
 ## Bilibili
