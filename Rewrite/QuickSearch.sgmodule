@@ -6,7 +6,7 @@
 [MITM]
 
 # HostName
-hostname = www.google.com, www.google.cn,www.g.cn, play.google.com, search.yahoo.com, cn.bing.com, www.bing.com.cn, www.bing.cn, chat.openai.com, duckduckgo.com, search.aol.com, www.ask.com, yandex.com, www.ecosia.org, you.com, wap.sogou.com, www.baidu.com, dict.baidu.com, www.pinterest.com, en.wikipedia.org, zh.wikipedia.org, zh.wiktionary.org, github.com, www.etools.ch, www.youtube.com,
+##hostname = www.google.com, www.google.cn,www.g.cn, play.google.com, search.yahoo.com, cn.bing.com, www.bing.com.cn, www.bing.cn, chat.openai.com, duckduckgo.com, search.aol.com, www.ask.com, yandex.com, www.ecosia.org, you.com, wap.sogou.com, www.baidu.com, dict.baidu.com, www.pinterest.com, en.wikipedia.org, zh.wikipedia.org, zh.wiktionary.org, github.com, www.etools.ch, www.youtube.com,
 
 
 [URL Rewrite]
