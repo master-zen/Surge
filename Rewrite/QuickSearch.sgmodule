@@ -33,9 +33,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)\+(.*?)" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)\+(.*?)" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)\+(.*?)" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)\+(.*?)" "https://dict.baidu.com/s?wd=$1" 307
@@ -104,9 +102,7 @@
 ## You.com
 "^https?:\/\/www\.google\.cn\/search\?q=(?i:YOU)\+(.*?)" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.cn\/search\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.cn\/search\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)\+(.*?)" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.cn\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.cn\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)\+(.*?)" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.cn\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)\+(.*?)" "https://dict.baidu.com/s?wd=$1" 307
@@ -175,9 +171,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:YOU)\+(.*?)" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:SOSO|%E6%90%9C%E6%90%9C)\+(.*?)" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)\+(.*?)" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)\+(.*?)" "https://dict.baidu.com/s?wd=$1" 307
@@ -246,9 +240,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:YOU)\+(.*?)" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:SOSO|%E6%90%9C%E6%90%9C)\+(.*?)" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)\+(.*?)" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)\+(.*?)" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)\+(.*?)" "https://dict.baidu.com/s?wd=$1" 307
@@ -317,9 +309,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://dict.baidu.com/s?wd=$1" 307
@@ -388,9 +378,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://dict.baidu.com/s?wd=$1" 307
@@ -458,9 +446,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)%20(.*?)&ie=utf-8&oe=utf-8$" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)%20(.*?)&ie=utf-8&oe=utf-8$" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8$" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8$" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&ie=utf-8&oe=utf-8$" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&ie=utf-8&oe=utf-8$" "https://dict.baidu.com/s?wd=$1" 307
@@ -528,9 +514,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:YOU)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:SOSO|%E6%90%9C%E6%90%9C)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://dict.baidu.com/s?wd=$1" 307
@@ -599,9 +583,7 @@
 ## You.com
 "^https?:\/\/www\.google\.com\/m\?q=(?i:YOU)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://you.com/search?q=$1" 307
 ## Sogou
-"^https?:\/\/www\.google\.com\/m\?q=(?i:SOGOU|SOUGOU|SO|SG|%E6%90%9C%E7%8B%97)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://www.sogou.com/web?query=$1" 307
-## SOSO
-"^https?:\/\/www\.google\.com\/m\?q=(?i:SOSO|%E6%90%9C%E6%90%9C)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://soso.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/m\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://www.sogou.com/web?query=$1" 307
 ## Baidu
 "^https?:\/\/www\.google\.com\/m\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://baidu.com/s?wd=$1" 307
 "^https?:\/\/www\.google\.com\/m\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://dict.baidu.com/s?wd=$1" 307
