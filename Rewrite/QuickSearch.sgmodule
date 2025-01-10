@@ -1,15 +1,18 @@
-#!name=Search Engine Redirect
-#!desc=Effective when the default search engine is set to Google. ,Updated=2025-1-9
-#!system=ios
+#!Name=Search Engine Redirect
+#!Desc=Effective when the default search engine is set to Google.
+#!System=ios
+#!Updated=2025-1-10
 #===============Zen===============#
 
-[URL Rewrite]
 
+[URL Rewrite]
 # google.com QuickSearch（Chrome, Edge, Safari for ios)
 ## Google
 "^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?)" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)\+(.*?)" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)\+(.*?)" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -78,7 +81,9 @@
 ## Google
 "^https?:\/\/www\.google\.cn\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?)" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.cn\/search\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.cn\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.cn\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)\+(.*?)" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.cn\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)\+(.*?)" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -147,7 +152,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?)" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)\+(.*?)" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?client=safari&rls=en&q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)\+(.*?)" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -216,7 +223,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?)" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)\+(.*?)" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)\+(.*?)" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?client=firefox-b-d&q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)\+(.*?)" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -285,7 +294,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -354,7 +365,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -422,7 +435,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8$" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)%20(.*?)&ie=utf-8&oe=utf-8$" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&ie=utf-8&oe=utf-8$" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)%20(.*?)&ie=utf-8&oe=utf-8$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&ie=utf-8&oe=utf-8$" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -490,7 +505,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/search\?client=opera&q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)\+(.*?)&sourceid=opera&ie=UTF-8&oe=UTF-8$" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
@@ -559,7 +576,9 @@
 ## Google
 "^https?:\/\/www\.google\.com\/m\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://www.google.com/search?q=$1" 307
 ## Google Play
-"^https?:\/\/www\.google\.com\/m\?q=(?i:GOOGLEPLAY|GP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://play.google.com/store/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/m\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/m\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
 ## Yahoo
 "^https?:\/\/www\.google\.com\/m\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&client=ms-opera-touch-iphone&channel=new&espv=1&tpsf=opmenpf$" "https://search.yahoo.com/search?p=$1" 307
 ## Microsoft
