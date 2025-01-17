@@ -350,76 +350,7 @@
 ## Kuaidi
 "^https?:\/\/www\.google\.com\/search\?q=(?i:KUAIDI100|KUAIDI|KD|%E5%BF%AB%E9%80%92)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-1-m$" "https://m.kuaidi100.com/result.jsp?nu=$1" 307
 
-
 # Firefox Focus for iOS QuickSearch
-## Google
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.google.com/search?q=$1" 307
-## Google Play
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://play.google.com/store/search?q=$1" 307
-## App Store
-"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
-## Yahoo
-"^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://search.yahoo.com/search?p=$1" 307
-## Microsoft
-"^https?:\/\/www\.google\.com\/search\?q=(?i:BING|B|%E5%BF%85%E5%BA%94)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.bing.com/search?q=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:COPILOT)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.bing.com/search?showconv=1&sendquery=1&q=$1" 307
-## ChatGPT
-"^https?:\/\/www\.google\.com\/search\?q=(?i:CHATGPT|CHAT|GPT)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://chatgpt.com/?q=$1" 307
-## DuckDuckGo
-"^https?:\/\/www\.google\.com\/search\?q=(?i:DUCKDUCKGO|DUCK|DDG)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://duckduckgo.com?q=$1" 307
-## AOL
-"^https?:\/\/www\.google\.com\/search\?q=(?i:AOL|A)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://search.aol.com/aol/search?q=$1" 307
-## Ask
-"^https?:\/\/www\.google\.com\/search\?q=(?i:AKS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.ask.com/web?q=$1" 307
-## Yandex
-"^https?:\/\/www\.google\.com\/search\?q=(?i:YANDEX|YAN)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://yandex.com/search?text=$1" 307
-## Ecosia
-"^https?:\/\/www\.google\.com\/search\?q=(?i:ECOSIA)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.ecosia.org/search?q=$1" 307
-## You.com
-"^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://you.com/search?q=$1" 307
-## Sogou
-"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.sogou.com/web?query=$1" 307
-## Baidu
-"^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://baidu.com/s?wd=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://dict.baidu.com/s?wd=$1" 307
-## Pinterest
-"^https?:\/\/www\.google\.com\/search\?q=(?i:PINTEREST|PIN)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.pinterest.com/search/pins?q=$1" 307
-## Wikipedia
-"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIAEN|WIKIEN|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91EN|%E7%BB%B4%E5%9F%BAEN)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://en.wikipedia.org/wiki?search=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIA|WIKI|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91|%E7%BB%B4%E5%9F%BA)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://zh.wikipedia.org/wiki?search=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIAZD|WIKIZD|WKZD|WIKIPEDIAZIDIAN|WIKIZIDIAN|WIKIPEDIA%E5%AD%97%E5%85%B8|WIKI%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%B1%89%E5%AD%97|%E7%BB%B4%E5%9F%BA%E6%B1%89%E5%AD%97|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E8%AF%8D%E5%85%B8|%E7%BB%B4%E5%9F%BA%E8%AF%8D%E5%85%B8|%E8%AF%8D%E5%85%B8)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://zh.wiktionary.org/w/index.php?search=$1" 307
-## GitHub
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GITHUB|GIT|GH)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://github.com/search?type=repositories&q=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:GITHUBUSER|GITUSER|GITU|GHU)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://github.com/search?type=users&q=$1" 307
-## eTools
-"^https?:\/\/www\.google\.com\/search\?q=(?i:ETOOLS)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.etools.ch/searchSubmit.do?query=$1" 307
-## YouTube
-"^https?:\/\/www\.google\.com\/search\?q=(?i:YOUTUBE|YTB)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.youtube.com/results?search_query=$1" 307
-## Pornhub
-"^https?:\/\/www\.google\.com\/search\?q=(?i:PORNHUB|PORN)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://cn.pornhub.com/video/search?search=$1" 307
-## Bilibili
-"^https?:\/\/www\.google\.com\/search\?q=(?i:BILIBILI|BILI|%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://search.bilibili.com/all?keyword=$1" 307
-## Douban
-"^https?:\/\/www\.google\.com\/search\?q=(?i:DOUBAN|DB|%E8%B1%86%E7%93%A3)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://m.douban.com/search/?query=$1" 307
-## Twitter
-"^https?:\/\/www\.google\.com\/search\?q=(?i:TWITTER|X)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://twitter.com/search?q=$1" 307
-## Facebook
-"^https?:\/\/www\.google\.com\/search\?q=(?i:FACEBOOK)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.facebook.com/search/top/?q=$1" 307
-## Zhihu
-"^https?:\/\/www\.google\.com\/search\?q=(?i:ZHIHU|ZH|%E7%9F%A5%E4%B9%8E)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.zhihu.com/search?type=content&q=$1" 307
-## Amazon
-"^https?:\/\/www\.google\.com\/search\?q=(?i:AMAZON|%E4%BA%9A%E9%A9%AC%E9%80%8A)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.amazon.com/s?k=$1" 307
-"^https?:\/\/www\.google\.com\/search\?q=(?i:KINDLE|%E7%94%B5%E5%AD%90%E4%B9%A6|%E4%B9%A6)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.amazon.com/s?k=$1&i=digital-text" 307
-## eBay
-"^https?:\/\/www\.google\.com\/search\?q=(?i:EBAY)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://www.ebay.com/sch/i.html?_nkw=$1" 307
-## Jingdong
-"^https?:\/\/www\.google\.com\/search\?q=(?i:JINGDONG|JD|%E4%BA%AC%E4%B8%9C)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://search.jd.com/Search?keyword=$1" 307
-## Taobao
-"^https?:\/\/www\.google\.com\/search\?q=(?i:TAOBAO|TB|%E6%B7%98%E5%AE%9D)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://s.taobao.com/search?q=$1" 307
-## Kuaidi
-"^https?:\/\/www\.google\.com\/search\?q=(?i:KUAIDI100|KUAIDI|KD|%E5%BF%AB%E9%80%92)%20(.*?)&ie=utf-8&oe=utf-8&client=firefox-b-m$" "https://m.kuaidi100.com/result.jsp?nu=$1" 307
-
-# Firefox Focus for iOS QuickSearch（变动）
 ## Google
 "^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8$" "https://www.google.com/search?q=$1" 307
 ## Google Play
@@ -486,6 +417,76 @@
 "^https?:\/\/www\.google\.com\/search\?q=(?i:TAOBAO|TB|%E6%B7%98%E5%AE%9D)%20(.*?)&ie=utf-8&oe=utf-8$" "https://s.taobao.com/search?q=$1" 307
 ## Kuaidi
 "^https?:\/\/www\.google\.com\/search\?q=(?i:KUAIDI100|KUAIDI|KD|%E5%BF%AB%E9%80%92)%20(.*?)&ie=utf-8&oe=utf-8$" "https://m.kuaidi100.com/result.jsp?nu=$1" 307
+
+
+# Firefox Focus for iOS QuickSearch（变动）
+## Google
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.google.com/search?q=$1" 307
+## Google Play
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLEPLAY|GP|ANDROID|ANDROIDSTORE|ANDROIDAPP|AAPP|%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E5%95%86%E5%BA%97|%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6|%E5%AE%89%E5%8D%93|%E5%AE%89%E5%8D%93APP)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://play.google.com/store/search?q=$1" 307
+## App Store
+"^https?:\/\/www\.google\.com\/search\?q=(?i:APPSTORE|APP|AS|%E8%8B%B9%E6%9E%9C%E8%BD%AF%E4%BB%B6|%E8%8B%B9%E6%9E%9C%E5%95%86%E5%BA%97|%E8%8B%B9%E6%9E%9C%E5%BA%94%E7%94%A8|%E5%BA%94%E7%94%A8|%E8%BD%AF%E4%BB%B6|%E7%A8%8B%E5%BA%8F|AS)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=$1" 307
+## Yahoo
+"^https?:\/\/www\.google\.com\/search\?q=(?i:YAHOO|YH|Y|%E9%9B%85%E8%99%8E)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://search.yahoo.com/search?p=$1" 307
+## Microsoft
+"^https?:\/\/www\.google\.com\/search\?q=(?i:BING|B|%E5%BF%85%E5%BA%94)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.bing.com/search?q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:COPILOT)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.bing.com/search?showconv=1&sendquery=1&q=$1" 307
+## ChatGPT
+"^https?:\/\/www\.google\.com\/search\?q=(?i:CHATGPT|CHAT|GPT)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://chatgpt.com/?q=$1" 307
+## DuckDuckGo
+"^https?:\/\/www\.google\.com\/search\?q=(?i:DUCKDUCKGO|DUCK|DDG)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://duckduckgo.com?q=$1" 307
+## AOL
+"^https?:\/\/www\.google\.com\/search\?q=(?i:AOL|A)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://search.aol.com/aol/search?q=$1" 307
+## Ask
+"^https?:\/\/www\.google\.com\/search\?q=(?i:AKS)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.ask.com/web?q=$1" 307
+## Yandex
+"^https?:\/\/www\.google\.com\/search\?q=(?i:YANDEX|YAN)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://yandex.com/search?text=$1" 307
+## Ecosia
+"^https?:\/\/www\.google\.com\/search\?q=(?i:ECOSIA)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.ecosia.org/search?q=$1" 307
+## You.com
+"^https?:\/\/www\.google\.com\/search\?q=(?i:YOU)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://you.com/search?q=$1" 307
+## Sogou
+"^https?:\/\/www\.google\.com\/search\?q=(?i:SOGOU|SOUGOU|SOSO|SO|SG||%E6%90%9C%E7%8B%97|%E6%90%9C%E6%90%9C)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.sogou.com/web?query=$1" 307
+## Baidu
+"^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDU|BD|%E7%99%BE%E5%BA%A6)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://baidu.com/s?wd=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:BAIDUZIDIAN|BDZD|ZIDIAN|ZD|BAIDU%E5%AD%97%E5%85%B8|BD%E5%AD%97%E5%85%B8|%E7%99%BE%E5%BA%A6%E5%AD%97%E5%85%B8|%E5%AD%97%E5%85%B8|%E6%B1%89%E5%AD%97|%E5%AD%97)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://dict.baidu.com/s?wd=$1" 307
+## Pinterest
+"^https?:\/\/www\.google\.com\/search\?q=(?i:PINTEREST|PIN)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.pinterest.com/search/pins?q=$1" 307
+## Wikipedia
+"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIAEN|WIKIEN|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91EN|%E7%BB%B4%E5%9F%BAEN)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://en.wikipedia.org/wiki?search=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIA|WIKI|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91|%E7%BB%B4%E5%9F%BA)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://zh.wikipedia.org/wiki?search=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:WIKIPEDIAZD|WIKIZD|WKZD|WIKIPEDIAZIDIAN|WIKIZIDIAN|WIKIPEDIA%E5%AD%97%E5%85%B8|WIKI%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E5%AD%97%E5%85%B8|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%B1%89%E5%AD%97|%E7%BB%B4%E5%9F%BA%E6%B1%89%E5%AD%97|%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E8%AF%8D%E5%85%B8|%E7%BB%B4%E5%9F%BA%E8%AF%8D%E5%85%B8|%E8%AF%8D%E5%85%B8)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://zh.wiktionary.org/w/index.php?search=$1" 307
+## GitHub
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GITHUB|GIT|GH)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://github.com/search?type=repositories&q=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:GITHUBUSER|GITUSER|GITU|GHU)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://github.com/search?type=users&q=$1" 307
+## eTools
+"^https?:\/\/www\.google\.com\/search\?q=(?i:ETOOLS)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.etools.ch/searchSubmit.do?query=$1" 307
+## YouTube
+"^https?:\/\/www\.google\.com\/search\?q=(?i:YOUTUBE|YTB)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.youtube.com/results?search_query=$1" 307
+## Pornhub
+"^https?:\/\/www\.google\.com\/search\?q=(?i:PORNHUB|PORN)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://cn.pornhub.com/video/search?search=$1" 307
+## Bilibili
+"^https?:\/\/www\.google\.com\/search\?q=(?i:BILIBILI|BILI|%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://search.bilibili.com/all?keyword=$1" 307
+## Douban
+"^https?:\/\/www\.google\.com\/search\?q=(?i:DOUBAN|DB|%E8%B1%86%E7%93%A3)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://m.douban.com/search/?query=$1" 307
+## Twitter
+"^https?:\/\/www\.google\.com\/search\?q=(?i:TWITTER|X)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://twitter.com/search?q=$1" 307
+## Facebook
+"^https?:\/\/www\.google\.com\/search\?q=(?i:FACEBOOK)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.facebook.com/search/top/?q=$1" 307
+## Zhihu
+"^https?:\/\/www\.google\.com\/search\?q=(?i:ZHIHU|ZH|%E7%9F%A5%E4%B9%8E)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.zhihu.com/search?type=content&q=$1" 307
+## Amazon
+"^https?:\/\/www\.google\.com\/search\?q=(?i:AMAZON|%E4%BA%9A%E9%A9%AC%E9%80%8A)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.amazon.com/s?k=$1" 307
+"^https?:\/\/www\.google\.com\/search\?q=(?i:KINDLE|%E7%94%B5%E5%AD%90%E4%B9%A6|%E4%B9%A6)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.amazon.com/s?k=$1&i=digital-text" 307
+## eBay
+"^https?:\/\/www\.google\.com\/search\?q=(?i:EBAY)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://www.ebay.com/sch/i.html?_nkw=$1" 307
+## Jingdong
+"^https?:\/\/www\.google\.com\/search\?q=(?i:JINGDONG|JD|%E4%BA%AC%E4%B8%9C)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://search.jd.com/Search?keyword=$1" 307
+## Taobao
+"^https?:\/\/www\.google\.com\/search\?q=(?i:TAOBAO|TB|%E6%B7%98%E5%AE%9D)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://s.taobao.com/search?q=$1" 307
+## Kuaidi
+"^https?:\/\/www\.google\.com\/search\?q=(?i:KUAIDI100|KUAIDI|KD|%E5%BF%AB%E9%80%92)%20(.*?)&ie=utf-8&oe=utf-8&sei=Gh-KZ9HLDOji2roPvZvDkQc" "https://m.kuaidi100.com/result.jsp?nu=$1" 307
+
 
 # Opera for macOS QuickSearch
 ## Google
