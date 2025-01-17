@@ -5,7 +5,8 @@
 #===============Zen===============#
 
 
-# [URL Rewrite]
+[URL Rewrite]
+
 # google.com QuickSearch（Chrome, Edge, Safari for ios)
 ## Google
 ^https?:\/\/www\.google\.com\/search\?q=(?i:GOOGLE|G|%E8%B0%B7%E6%AD%8C)\+(.*?) https://www.google.com/search?q=$1 307
