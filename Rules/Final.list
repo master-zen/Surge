@@ -1,14 +1,3 @@
-# Google
-DOMAIN, fundingchoicesmessages.google.com, Google
-DOMAIN, clientservices.googleapis.com, Google
-DOMAIN, dl.google.com, Google
-DOMAIN, dl.l.google.com, Google
-DOMAIN, update.googleapis.com, Google
-DOMAIN-SUFFIX, blog.google, Google
-DOMAIN-SUFFIX, googleapis.com, Google
-DOMAIN-SUFFIX, googletraveladservices.com, Google
-DOMAIN-SUFFIX, app-analytics-services.com, Google
-
 # DOMAIN
 
 DOMAIN, wl.spotify.com, Spotify
@@ -17,6 +6,7 @@ DOMAIN, cc-api-data.adobe.io, Adobe
 DOMAIN, m.discuss.com.hk, Proxy
 DOMAIN, api.adapty.io, Proxy
 DOMAIN, dblr1a.turn.livekit.cloud, Proxy
+DOMAIN, assrt.net, Proxy
 
 # DOMAIN-SUFFIX
 DOMAIN-SUFFIX, weather.com, Proxy
