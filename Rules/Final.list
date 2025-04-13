@@ -14,6 +14,7 @@ DOMAIN, api.adapty.io, Proxy
 DOMAIN-SUFFIX, themoviedb.org, Proxy
 DOMAIN-SUFFIX, rottentomatoes.com, Proxy
 DOMAIN-SUFFIX, trakt.tv, Proxy
+DOMAIN-SUFFIX, letterboxd.com, Proxy
 DOMAIN-SUFFIX, dailymotion.com, Proxy
 DOMAIN-SUFFIX, z-lib.fm, Proxy
 DOMAIN-SUFFIX, assrt.net, Proxy
