@@ -15,6 +15,7 @@ DOMAIN, dblr1a.turn.livekit.cloud, Proxy
 DOMAIN-SUFFIX, themoviedb.org, Proxy
 DOMAIN-SUFFIX, rottentomatoes.com, Proxy
 DOMAIN-SUFFIX, trakt.tv, Proxy
+DOMAIN-SUFFIX, z-lib.fm, Proxy
 DOMAIN-SUFFIX, assrt.net, Proxy
 DOMAIN-SUFFIX, weather.com, Proxy
 DOMAIN-SUFFIX, discuss.com.hk, Proxy
