@@ -3,6 +3,7 @@
 DOMAIN, wl.spotify.com, Spotify
 DOMAIN, t.co, Twitter
 DOMAIN, www.themoviedb.org, Proxy
+DOMAIN, www.rottentomatoes.com, Proxy
 DOMAIN, cc-api-data.adobe.io, Adobe
 DOMAIN, m.discuss.com.hk, Proxy
 DOMAIN, api.adapty.io, Proxy
@@ -12,6 +13,7 @@ DOMAIN, dblr1a.turn.livekit.cloud, Proxy
 
 # DOMAIN-SUFFIX
 DOMAIN-SUFFIX, themoviedb.org, Proxy
+DOMAIN-SUFFIX, rottentomatoes.com, Proxy
 DOMAIN-SUFFIX, assrt.net, Proxy
 DOMAIN-SUFFIX, weather.com, Proxy
 DOMAIN-SUFFIX, discuss.com.hk, Proxy
