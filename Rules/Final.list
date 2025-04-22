@@ -8,11 +8,11 @@ DOMAIN, www.dailymotion.com, Proxy
 DOMAIN, cc-api-data.adobe.io, Adobe
 DOMAIN, m.discuss.com.hk, Proxy
 DOMAIN, api.adapty.io, Proxy
-
+DOMAIN, app-analytics-services.com, Proxy
+DOMAIN, crashlytics.com, Proxy
+DOMAIN, firebaselogging-pa.googleapis.com, Proxy
 
 # DOMAIN-SUFFIX
-DOMAIN-SUFFIX,crashlytics.com, Proxy
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com, Proxy
 DOMAIN-SUFFIX, themoviedb.org, Proxy
 DOMAIN-SUFFIX, rottentomatoes.com, Proxy
 DOMAIN-SUFFIX, trakt.tv, Proxy
