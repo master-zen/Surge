@@ -1,7 +1,9 @@
 #!Name=Search Engine Redirect
 #!Desc=Effective when the default search engine is set to Google.
-#!System=ios
-#!Updated=2025-1-17
+#!category=Redirect
+#!tag=Search
+#!homepage=https://github.com/master-zen/Surge/blob/main/Rewrite/QuickSearch.sgmodule
+#!date=2025-04-24 01:28
 #===============Zen===============#
 
 
